@@ -7,17 +7,22 @@
             integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- Bootstrap core CSS -->
     <link href="dist/css/app.css" rel="stylesheet">
-
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/576d952714.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <!--        <link href="resume.css" rel="stylesheet">-->
 </head>
-<body class="bg-light">
+<body>
 <div class="container">
     <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg entire-navbar">
         <a class="navbar-brand" href="#">Casidy Horst</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,17 +50,19 @@
             <!--beginning of home tab -->
             <div class="tab-pane active container" id="home">
                 <div class="media">
-                    <img src="self picture.JPG" height="45%" width="45%" class="align-self-start mr-3"
+                    <img src="resume image option.jpg" height="30%" width="30%" class="align-self-start p-4 home-image"
                          alt="self portrait">
                     <div class="media-body">
-                        <h3 class="mt-5">Hello, I'm Casidy Horst</h3>
+                        <h3 class="mt-5 brand">Hello, I'm Casidy Horst</h3>
                         <p class="mt-4">I am a Web & Software Developer student at Waukesha County Technical College. I
                             find
                             enjoyment in the Front-End Web Development side. </p>
                         <p>Some of my hobbies include photography, tennis, camping, kayaking, adventuring, and having
                             fun with family & friends.</p><br><br>
-                        <a class="btn btn-primary" href="https://www.linkedin.com/in/casidyhorst/" role="button">LinkedIn
-                            Profile</a>
+                        <a class="btn btn-ternary shadow-md button" target="_blank"
+                           href="https://www.linkedin.com/in/casidyhorst/" role="button"> <i
+                                class="fab fa-linkedin"></i>
+                            LinkedIn Profile</a>
                     </div>
 
 
@@ -64,36 +71,39 @@
             <!-- beginning of services tab -->
             <div class="tab-pane container" id="services">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="html.png" height="269" width="150" class="card-img-top" alt="html logo">
-
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fab fa-html5 services-icon pt-4"></i>
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-text">HTML</h3>
+                                <h4 class="card-text">HTML</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="css.png" height="269" width="150" class="card-img-top" alt="css logo">
-
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fab fa-css3-alt services-icon pt-4"></i>
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-text">CSS</h3>
+                                <h4 class="card-text">CSS</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="js.png" height="269" width="150" class="card-img-top" alt="js logo">
-
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fab fa-js-square services-icon pt-4"></i>
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-text">JavaScript</h3>
+                                <h4 class="card-text">JavaScript</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
@@ -102,38 +112,40 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="responsiveness.png" height="269" width="150" class="card-img-top"
-                                 alt="responsiveness">
-
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fas fa-tablet-alt services-icon pt-4"></i>
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-text">Responsiveness</h3>
+                                <h4 class="card-text">Responsiveness</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="creativity.png" height="269" width="150" class="card-img-top" alt="creativity">
-
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fas fa-palette services-icon pt-4"></i>
+                            </div>
                             <div class="card-body">
-                                <h3 class="card-text">Creativity</h3>
+                                <h4 class="card-text">Creativity</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="customization.png" height="269" width="150" class="card-img-top"
-                                 alt="customization">
+                    <div class="col-sm-4">
+                        <div class="card mb-4 shadow  align-content-center">
+                            <div class="text-center">
+                                <i class="fas fa-user-edit services-icon pt-4"></i>
+                            </div>
 
                             <div class="card-body">
-                                <h3 class="card-text">Customization</h3>
+                                <h4 class="card-text">Customization</h4>
                                 <p class="card-text">I provide customizable services to result in your dream website. I
                                     have experience using HTML, CSS, and JavaScript</p>
 
@@ -145,18 +157,21 @@
             <!-- beginning of portfolio tab -->
             <div class="tab-pane container" id="portfolio">
                 <!-- navigation tabs -->
-                <ul class="nav pill-nav">
+                <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a data-toggle="tab" id="pizzaTab" class="nav-link active" href="#pizza">Pizza</a>
+                        <a data-toggle="tab" id="pizzaTab" class="nav-link active portfolio-tabs"
+                           href="#pizza">Pizza</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" id="spockTab" class="nav-link" href="#spockGame">Spock Game</a>
+                        <a data-toggle="tab" id="spockTab" class="nav-link portfolio-tabs" href="#spockGame">Spock
+                            Game</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" id="hangmanTab" class="nav-link" href="#hangman">Hangman</a>
+                        <a data-toggle="tab" id="hangmanTab" class="nav-link portfolio-tabs" href="#hangman">Hangman</a>
                     </li>
                     <li class="nav-item">
-                        <a data-toggle="tab" id="zodiacTab" class="nav-link" href="#zodiacSigns">Zodiac Signs</a>
+                        <a data-toggle="tab" id="zodiacTab" class="nav-link portfolio-tabs" href="#zodiacSigns">Zodiac
+                            Signs</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -169,20 +184,23 @@
                                 <li data-target="#pizzaCarousel" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="pizza1.jpg" class="d-block w-100" alt="pizza site screenshot">
+                                <div class="carousel-item active pt-4 pb-4">
+                                    <img src="pizza1.jpg" class="d-block w-100" alt="pizza site screenshot" width="45%"
+                                         height="45%">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Pizza Online Ordering Form</h5>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="pizza2.jpg" class="d-block w-100" alt="pizza site screenshot">
+                                <div class="carousel-item pt-4 pb-4">
+                                    <img src="pizza2.jpg" class="d-block w-100" alt="pizza site screenshot" width="45%"
+                                         height="45%">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Pizza Online Ordering Form</h5>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="pizza3.jpg" class="d-block w-100" alt="pizza site screenshot">
+                                <div class="carousel-item pt-4 pb-4">
+                                    <img src="pizza3.jpg" class="d-block w-100" alt="pizza site screenshot" width="45%"
+                                         height="45%">
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Pizza Online Ordering Form</h5>
                                     </div>
@@ -318,7 +336,7 @@
             <!-- beginning of contact tab -->
             <div class="tab-pane container" id="contact">
                 <div class="jumbotron">
-                    <h1 class="display-4">Contact Me</h1>
+                    <h1 class="display-4 brand">Contact Me</h1>
                     <p class="lead">I am always open for inquiries. Email or call me with your website requests!</p>
                     <hr class="my-4">
                     <p>Email: exampleemail@gmail.com <br> Phone: 123-456-7891</p>

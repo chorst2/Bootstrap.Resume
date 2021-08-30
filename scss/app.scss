@@ -1,20 +1,56 @@
+$primary: #BDAD9E;
+$secondary: #04162D;
+$ternary: #381D2A;
+$theme-colors: ("ternary": $ternary);
 
+
+$carousel-control-color: $secondary;
+$carousel-indicator-active-bg: $secondary;
+$carousel-caption-color: $secondary;
+$jumbotron-bg: $primary;
+$body-bg: #437C90;
+$card-bg: $secondary;
+$card-color: #e9e4e2;
+$card-height:260px;
+$nav-pills-link-active-color: $secondary;
+$nav-pills-link-active-bg: #e9e4e2;
 
 
 @import 'bootstrap';
+@import 'animated-button';
 
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.navbar-brand, .brand{
+  font-family: 'Bebas Neue', cursive;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+.services-icon{
+  width: 80px;
+  height: 100px;
+  background-color: $primary;
+  border-radius: 0 0 10px 10px;
+  font-size: 50px;
 }
+
+.entire-navbar{
+  border-radius: 10px 10px 0 0;
+  background-color: $ternary;
+}
+
+.tab-content{
+  background-color: $primary;
+}
+
+.home-image{
+  border-radius: 10px;
+}
+
+.portfolio-tabs{
+  color: $secondary;
+}
+
+//.carousel-item img {
+//  max-height: 1000px;
+//  max-width: 1000px;
+//  align-content: center;
+//}
